@@ -1,0 +1,26 @@
+# Основной pipeline: CLIP + FAISS (версии из работающего образа)
+torch==2.8.0
+torchvision==0.23.0
+transformers==4.57.1
+faiss-cpu==1.12.0
+numpy==1.26.4
+pandas==2.3.3
+Pillow==11.3.0
+tqdm==4.67.1
+
+# API сервер (версии из работающего образа)
+fastapi==0.119.0
+uvicorn==0.37.0
+python-multipart==0.0.20
+
+# Telegram бот (новые зависимости)
+aiogram==3.17.0
+aiohttp==3.11.11
+
+# Общие (версии из работающего образа)
+python-dotenv==1.1.1
+requests==2.32.5
+
+# YOLO эксперименты (версии из работающего образа)
+ultralytics==8.3.214
+opencv-python==4.11.0.86
